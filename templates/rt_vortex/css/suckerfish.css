@@ -1,0 +1,119 @@
+/* @override http://tiger:8888/workspace/joomla/feb07/templates/rt_vortex/css/suckerfish.css */
+
+/*****************************
+ ****       suckerfish    ****
+ *****************************/
+
+#nav-main {
+	height: 37px;
+}
+
+#nav-main ul {
+	padding: 0 0 0 7px;
+	margin: 0;
+	float: left;
+}
+
+#nav-main li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+	background: none;
+	position: relative;
+}
+
+#nav-main a {
+	display: block;
+	float: left;
+	height: 37px;
+	line-height: 37px;
+        padding: 0 10px;
+	text-decoration: none;
+	cursor: pointer;
+	background: none;
+}
+
+#nav-main li.active li a:link,
+#nav-main li.active li a:visited {
+	background: none;
+}
+
+#nav-main li li a:link,
+#nav-main li li a:visited{
+	background: none;
+	font-weight: normal;
+        padding: 0;
+	text-indent: 10px;
+}
+
+
+#nav-main li li {
+	padding: 0;
+	background: none;
+	padding: 0;
+  width: 270px;
+}
+
+#nav-main ul ul a:link,
+#nav-main ul ul a:visited {
+	display: block;
+	text-decoration: none;
+	width: 267px;
+	text-transform: none;
+	background: none;
+}
+
+#nav-main ul li {
+	position: relative;
+}
+
+#nav-main li ul {
+        top: 28px;
+	position: absolute;
+	z-index: 10;
+	left: -999em;
+	height: auto;
+	width: 270px;
+	font-weight: normal;
+	border-width: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/* margin for pullouts */
+#nav-main li ul ul {
+	margin: -28px 0 0 270px;
+}
+
+#nav-main ul ul a.daddy {
+}
+
+#nav-main li:hover ul ul,
+#nav-main li:hover ul ul ul,
+#nav-main li:hover ul ul ul ul,
+#nav-main li.sfhover ul ul,
+#nav-main li.sfhover ul ul ul,
+#nav-main li.sfhover ul ul ul ul {
+	left: -999em;
+}
+
+#nav-main li:hover ul,
+#nav-main li li:hover ul,
+#nav-main li li li:hover ul,
+#nav-main li li li li:hover ul,
+#nav-main li.sfhover ul,
+#nav-main li li.sfhover ul,
+#nav-main li li li.sfhover ul,
+#nav-main li li li li.sfhover ul{
+	left: 0;
+}
+
+#nav-main li:hover, #nav-main li.sfhover {
+      left: 0;
+}
+
+#nav-main li li.active {
+	background: none;
+}
+
