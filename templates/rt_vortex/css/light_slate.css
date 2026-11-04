@@ -1,0 +1,891 @@
+/* light slate specific css */
+
+/* fonts */
+h1 {
+        color: #456387;
+}
+
+h2 {
+	color: #333;
+}
+
+.contentheading {
+        color: #456387;
+}
+
+a.readon {
+        color: #004182;
+	background: url("../images/light_slate/content/bullet_arrow.png") no-repeat;
+}
+
+a.readon:hover {
+        color: #333;
+}
+
+span.pathway,
+span.pathway a:link,
+span.pathway a:visited {
+        color: #333;
+}
+
+span.pathway a:hover {
+        color: #666;
+}
+
+span.pathway img {
+	background:  url("../images/light_slate/content/bullet_path.png") no-repeat;
+}
+
+a:link,
+a:visited {
+	color: #004182;
+}
+
+#usermod a:link,
+#usermod a:visited,
+#footer a:link,
+#footer a:visited {
+        color: #333;
+}
+
+a:hover {
+        color: #333;
+}
+
+div.moduletable-hilite4 a:link,
+div.moduletable-hilite4 a:visited,
+div.movie-showcase {
+        color: #fff;
+}
+
+#usermod div.moduletable h3 {
+	background: url("../images/light_slate/mod5-head-bg.png") 0 0 repeat-x;
+}
+
+body {
+                color: #fff;
+}
+
+div.bodybox .componentheading,
+div.moduletable-hilite1 h3,
+div.moduletable-hilite2 h3,
+div.moduletable-hilite3 h3,
+div.moduletable-hilite4 h3,
+div.moduletable h3,
+span.loginsubmit,
+span.logoutsubmit,
+span.glossbutton,
+span.searchtitle {
+       color: #333;
+}
+
+td.left div.moduletable h3 {
+        color: #fff;
+}
+
+/* big menus */
+
+#nav-big ul a {
+        color:#333;
+}
+
+#nav-big ul a:hover {
+        color: #666;
+}
+
+#nav-big li.active_menu a:link,
+#nav-big li.active_menu a:visited {
+	color: #fff;
+}
+
+#nav-big .b0 {
+	background: url("../images/light_slate/buttons/button0_off.png");
+        width:176px;
+	height:62px;
+}
+
+#nav-big li.active_menu .b0 {
+	background: url("../images/light_slate/buttons/button0_on.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big .b1 {
+	background: url("../images/light_slate/buttons/button1_off.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big li.active_menu .b1 {
+	background: url("../images/light_slate/buttons/button1_on.png");
+        width:176px;
+	height:62px;
+
+}
+
+#nav-big .b2 {
+	background: url("../images/light_slate/buttons/button2_off.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big li.active_menu .b2 {
+	background: url("../images/light_slate/buttons/button2_on.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big .b3 {
+	background: url("../images/light_slate/buttons/button3_off.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big li.active_menu .b3 {
+	background: url("../images/light_slate/buttons/button3_on.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big .b4 {
+	background: url("../images/light_slate/buttons/button4_off.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big li.active_menu .b4 {
+	background: url("../images/light_slate/buttons/button4_on.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big .b5 {
+	background: url("../images/light_slate/buttons/button5_off.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big li.active_menu .b5 {
+	background: url("../images/light_slate/buttons/button5_on.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big .b6 {
+	background: url("../images/light_slate/buttons/button6_off.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big li.active_menu .b6 {
+	background: url("../images/light_slate/buttons/button6_on.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big .b7 {
+	background: url("../images/light_slate/buttons/button7_off.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big li.active_menu .b7 {
+	background: url("../images/light_slate/buttons/button7_on.png");
+	width:76px;
+	height:62px;
+}
+
+#nav-big .b8 {
+	background: url("../images/light_slate/buttons/button8_off.png");
+        width:76px;
+        height:62px;
+}
+
+#nav-big li.active_menu .b8 {
+  background: url("../images/light_slate/buttons/button8_on.png");
+        width:76px;
+    height:62px;
+}
+
+#nav-big .b9 {
+ background: url("../images/light_slate/buttons/button9_off.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big li.active_menu .b9 {
+ background: url("../images/light_slate/buttons/button9_on.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big .b10 {
+ background: url("../images/light_slate/buttons/button10_off.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big li.active_menu .b10 {
+ background: url("../images/light_slate/buttons/button10_on.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big .b11 {
+ background: url("../images/light_slate/buttons/button11_off.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big li.active_menu .b11 {
+ background: url("../images/light_slate/buttons/button11_on.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big .b12 {
+ background: url("../images/light_slate/buttons/button12_off.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big li.active_menu .b12 {
+ background: url("../images/light_slate/buttons/button12_on.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big .b13 {
+ background: url("../images/light_slate/buttons/button13_off.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big li.active_menu .b13 {
+ background: url("../images/light_slate/buttons/button13_on.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big .b14 {
+ background: url("../images/light_slate/buttons/button14_off.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big li.active_menu .b14 {
+ background: url("../images/light_slate/buttons/button14_on.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big .b15 {
+ background: url("../images/light_slate/buttons/button15_off.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big li.active_menu .b15 {
+ background: url("../images/light_slate/buttons/button15_on.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big .b16 {
+ background: url("../images/light_slate/buttons/button16_off.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big li.active_menu .b16 {
+ background: url("../images/light_slate/buttons/button16_on.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big .b17 {
+ background: url("../images/light_slate/buttons/button17_off.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big li.active_menu .b17 {
+ background: url("../images/light_slate/buttons/button17_on.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big .b18 {
+ background: url("../images/light_slate/buttons/button18_off.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big li.active_menu .b18 {
+ background: url("../images/light_slate/buttons/button18_on.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big .b19 {
+ background: url("../images/light_slate/buttons/button19_off.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big li.active_menu .b19 {
+ background: url("../images/light_slate/buttons/button19_on.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big .b20 {
+ background: url("../images/light_slate/buttons/button20_off.png");
+ width:76px;
+ height:62px;
+}
+
+#nav-big li.active_menu .b20 {
+ background: url("../images/light_slate/buttons/button20_on.png");
+ width:76px;
+ height:62px;
+}
+
+/* main menu strip */
+
+#nav-main a:link,
+#nav-main a:visited {
+ color: #fff;
+}
+
+#nav-main a:hover {
+ color: #333;
+}
+
+#nav-main li.active_menu {
+ background: url("../images/light_slate/head-menu-active-right.png") 100% 50% no-repeat;
+}
+
+#nav-main li.active_menu a:link,
+#nav-main li.active_menu a:visited,
+#nav-main li.active_menu a:hover {
+ background: url("../images/light_slate/head-menu-active-left.png") 0 50% no-repeat;
+ color: #fff;
+}
+
+/* vertical menu */
+div#menu_vert ul.sidenav li {
+ background: url("../images/light_slate/menu-icon.png") 0 5px no-repeat;
+ border-bottom: 1px solid #F5F5F5;
+}
+
+div#menu_vert a:link,
+div#menu_vert a:visited {
+ color: #333;
+}
+
+div#menu_vert a:hover {
+ color: #666;
+}
+
+div#menu_vert li.active_menu a:link,
+div#menu_vert li.active_menu a:visited {
+ color:  #333;
+}
+
+/* suckerfish menu */
+
+#nav-main li.active {
+ background: url("../images/light_slate/head-menu-active-right.png") 100% 50% no-repeat;
+}
+
+#nav-main li.active a:link,
+#nav-main li.active a:visited,
+#nav-main li.active a:hover {
+ background: url("../images/light_slate/head-menu-active-left.png") 0 50% no-repeat;
+ color: #fff;
+}
+
+#nav-main li.active a:hover {
+ color: #fff;
+}
+
+#nav-main li li {
+ border-bottom: 1px solid #314762;
+ border-top: 1px solid #577DAC;
+}
+
+#nav-main li ul {
+ border-top: 1px solid #577DAC;
+ border-right: 1px solid #314762;
+ border-left: 1px solid #577DAC;
+ border-bottom: 1px solid #314762;
+}
+
+#nav-main li:hover ul,
+#nav-main li li:hover ul,
+#nav-main li li li:hover ul,
+#nav-main li li li li:hover ul,
+#nav-main li.sfhover ul,
+#nav-main li li.sfhover ul,
+#nav-main li li li.sfhover ul,
+#nav-main li li li li.sfhover ul{
+ background: #456387;
+}
+
+#nav-main ul li li a:hover,
+#nav-main ul li li li a:hover,
+#nav-main li.active li a:hover,
+#nav-main li.active li li a:hover {
+ background: #758BAB;
+}
+
+#nav-main ul li li.active,
+#nav-main ul li li li.active {
+ background: #2e4762;
+}
+
+/* joomla menus */
+
+a.mainlevel:link,
+a.mainlevel:visited {
+ background: url("../images/light_slate/menu-icon.png") 0 50% no-repeat;
+ border-bottom: 1px solid #F5F5F5;
+ color: #333;
+}
+
+a.mainlevel:hover {
+ color: #666;
+}
+
+a#active_menu:link,
+a#active_menu:visited {
+ color: #333;
+}
+
+li.active_menu a:link,
+li.active_menu a:visited {
+  color: #333;
+}
+
+
+/* access */
+
+a.large .button {
+ background: url("../images/light_slate/access-large.png");
+}
+
+a.small .button {
+ background: url("../images/light_slate/access-small.png");
+}
+
+a.default .button {
+ background: url("../images/light_slate/access-med.png");
+}
+
+/* layout */
+
+#page-bg {
+ background: #fff url("../images/light_slate/bg.png") repeat-x;
+}
+
+#top-mod {
+ background: url("../images/light_slate/top-bg.png") repeat-x;
+}
+
+#top-mod .shad-r {
+        background: url("../images/light_slate/top-r.png") 100% 0 no-repeat;
+}
+
+#top-mod .shad-l {
+        background: url("../images/light_slate/top-l.png") 100% 0 no-repeat;
+}
+
+#header {
+ background: url("../images/light_slate/head-bg.png") repeat-x;
+}
+
+#header .shad-r {
+ background: url("../images/light_slate/head-right.png") 100% 0 no-repeat;
+}
+
+#header .shad-l
+{background: url("../images/light_slate/head-logo.png") 0 0 no-repeat;}
+
+
+
+#header #nav-main {
+ background:  url("../images/light_slate/head-menu-bg.png") repeat-x;
+}
+
+#header #nav-main .shad-l {
+ background: url("../images/light_slate/head-menu-left.png") 0 0 no-repeat;
+}
+
+#mainbody {
+
+	background: #E4E4E4 url("../images/light_slate/body-shadow-r.png") 100% 0 repeat-y;
+}
+
+#mainbody .shad-1 {
+	background: transparent url("../images/light_slate/body-shadow-l.png") 0 0 repeat-y;
+}
+
+#mainbody .shad-2 {
+	background: transparent url("../images/light_slate/body-shadow-tr.png") 100% 0 no-repeat;
+}
+
+#mainbody .shad-3 {
+	background: transparent url("../images/light_slate/body-shadow-tl.png") 0 0 no-repeat;
+}
+
+#mainbody .shad-4 {
+	background: transparent url("../images/light_slate/body-shadow-br.png") 100% 100% no-repeat;
+}
+
+#mainbody .shad-5 {
+	background: transparent url("../images/light_slate/body-shadow-bl.png") 0 100% no-repeat;
+}
+
+#body-bottom {
+	background: url("../images/light_slate/body-shadow-f.png") repeat-x;
+}
+
+#body-bottom .shad-r {
+	background: url("../images/light_slate/body-shadow-fr.png") 100% 0 no-repeat;
+}
+
+#body-bottom .shad-l {
+  background: url("../images/light_slate/body-shadow-fl.png") 0 0 no-repeat;
+}
+
+#footer-mods {
+ background: url("../images/light_slate/usermod-bg.png") repeat-x;
+}
+
+#footer-mods {
+ background: transparent url("../images/light_slate/footer-shadow-r.png") 100% 0 repeat-y;
+}
+
+#footer-mods .shad-1 {
+ background: transparent url("../images/light_slate/footer-shadow-l.png") 0 0 repeat-y;
+}
+
+#footer-mods .shad-2 {
+ background: transparent url("../images/light_slate/footer-shadow-tr.png") 100% 0 no-repeat;
+}
+
+#footer-mods .shad-3 {
+ background: transparent url("../images/light_slate/footer-shadow-tl.png") 0 0 no-repeat;
+}
+
+#footer-mods .shad-4 {
+ background: transparent url("../images/light_slate/footer-shadow-br.png") 100% 100% no-repeat;
+}
+
+#footer-mods .shad-5 {
+ background: transparent url("../images/light_slate/footer-shadow-bl.png") 0 100% no-repeat;
+}
+
+#usermod {
+ background: #DEDEDE url("../images/light_slate/usermod-bg.png") repeat-x;
+ border-bottom: 1px solid #ccc;
+}
+
+#footer {
+ background: #E4E4E4 url("../images/light_slate/footer-bg.png") repeat-x;
+ border-top: 1px solid #fff;
+ color: #333;
+}
+
+#footer-bottom {
+ background: url("../images/light_slate/footer-shadow-f.png") repeat-x;
+}
+
+#footer-bottom .shad-r {
+ background: url("../images/light_slate/footer-shadow-fr.png") 100% 0 no-repeat;
+}
+
+#footer-bottom .shad-l {
+ background: url("../images/light_slate/footer-shadow-fl.png") 0 0 no-repeat;
+}
+
+table.usermodules td.modbg {
+ border-left: 7px solid #E4E4E4;
+}
+
+table.usermodules.bottom td.modbg {
+ padding-left: 7px;
+ border:0;
+}
+
+/* modules */
+
+div.bodybox,
+div.moduletable,
+div.moduletable-hilite1,
+div.moduletable-hilite2,
+div.moduletable-hilite3,
+div.moduletable-hilite4 {
+ color: #eee;
+}
+
+#usermod div.moduletable {
+ color: #333;
+}
+
+td.modbg div.moduletable,
+td.right div.moduletable,
+div.moduletable-hilite2,
+div.moduletable-hilite3 {
+ color: #333;
+}
+
+td.left div.moduletable {
+ color: #333;
+}
+
+div.bodybox {
+ color: #333;
+}
+
+td.left div.moduletable,
+div.moduletable-hilite1 {
+ background: #fff url("../images/light_slate/mod1-foot.png") 0 100% repeat-x;
+ color: #333;
+}
+
+td.left div.moduletable h3,
+div.moduletable-hilite1 h3 {
+ background: url("../images/light_slate/mod1-head-bg.png") 0 0 repeat-x;
+ color: #fff;
+}
+
+td.right div.moduletable,
+div.moduletable-hilite3 {
+ background: #fff url("../images/light_slate/mod3-foot.png") 0 100% repeat-x;
+}
+
+td.right div.moduletable h3,
+div.moduletable-hilite3 h3{
+ background: url("../images/light_slate/mod3-head-bg.png") 0 0 repeat-x;
+}
+
+div.bodybox {
+ background: #fff url("../images/light_slate/mod2-foot.png") 0 100% repeat-x;
+}
+
+div.bodybox div.bodyhead{
+ background: url("../images/light_slate/mod2-head-bg.png") 0 0 repeat-x;
+}
+
+td.middle div.moduletable,
+div.moduletable-hilite2 {
+ background: #fff url("../images/light_slate/mod2-foot.png") 0 100% repeat-x;
+}
+
+td.middle div.moduletable h3,
+div.moduletable-hilite2 h3{
+ background: url("../images/light_slate/mod2-head-bg.png") 0 0 repeat-x;
+}
+
+div.moduletable-hilite4  {
+ background: #456387 url("../images/light_slate/mod4-foot.png") 0 100% repeat-x;
+}
+
+div.moduletable-hilite4 h3 {
+ background: url("../images/light_slate/mod4-head-bg.png") 0 0 repeat-x;
+}
+
+#usermod div.moduletable h3 {
+ background: url("../images/light_slate/mod5-head-bg.png") 0 0 repeat-x;
+ color: #fff;
+}
+
+/*************************************************
+ * SOLUTION FOR SAME-HEIGHT MIDDLE MODULES
+ *
+ * solution to get the middle modules to lineup
+ * if you want same height modules in the middle
+ * uncomment these next two entries
+ *************************************************/
+
+/*
+td.modbg {
+ background: #fff url("../images/light_slate/mod2-foot.png") 0 100% repeat-x;
+}
+
+td.middle div.moduletable {
+ background: transparent;
+}
+*/
+
+/* END SOLUTION */
+
+#search input.inputbox {
+ background: #fff url("../images/light_slate/search-icon.png") 100% 50% no-repeat;
+ border: 1px solid #ccc;
+}
+
+/* content styles */
+span.notice {
+ background: #ffd url("../images/light_slate/content/notice_icon.png") 0 50% no-repeat;
+ color: #333;
+ border: 1px solid #ddb;
+}
+
+span.question {
+ background: url("../images/light_slate/content/question_icon.png") 0 50% no-repeat;
+}
+
+span.download {
+ background: url("../images/light_slate/content/down_icon.png") 0 50% no-repeat;
+}
+
+span.contact {
+ background: url("../images/light_slate/content/contact_icon.png") 0 50% no-repeat;
+}
+
+span.tip {
+ background: url("../images/light_slate/content/tip_icon.png") 0 50% no-repeat;
+}
+
+blockquote {
+ color: #333;
+ background: #E4E4E4 url("../images/light_slate/content/quote_corner.png") 0 0 no-repeat;
+}
+
+pre {
+ background: #f6f6f6;
+ border-top: 5px solid #ddd;
+ border-bottom: 5px solid #ddd;
+}
+
+ul li {
+ background: url("../images/light_slate/content/bullet_small.png") 0 2px no-repeat;
+}
+
+ul.arrow li {
+ background: url("../images/light_slate/content/bullet_arrow.png") 0 2px no-repeat;
+}
+
+/* tabber */
+div.moduletable-tabs {
+ background: url("../images/light_slate/content/tabber_bg.png") no-repeat;
+}
+
+ul.tabbernav {
+ border-bottom: 1px solid #fff;
+}
+
+ul.tabbernav li a:link {
+ color: #333;
+}
+
+ul.tabbernav li a:visited {
+ color: #333;
+}
+
+ul.tabbernav li a:hover {
+ color: #666;
+}
+
+ul.tabbernav li.tabberactive a,
+ul.tabbernav li.tabberactive a:hover {
+ background: url("../images/light_slate/content/tab_bg.png") repeat-x top;
+ border-bottom: none;
+ border-right: 1px solid #35557C;
+ border-left: 1px solid #35557C;
+ color: #fff;
+}
+
+ul.tabbernav li.tabberactive a:hover {
+ color: #fff;
+}
+
+.tabberlive .tabbertab {
+ background: #fff url("../images/light_slate/content/tcontent_bg.png") repeat-x top;
+ color: #333;
+}
+
+/* sliders */
+.jw_slidetitle {
+ background: url("../images/light_slate/content/tabber_bg.png") no-repeat;
+}
+
+.jw_st_cont {
+ color: #333;
+}
+
+/* Parent box of slide down content */
+.jw_slide {
+ background-color: #fff;
+}
+
+/* Content that slides down */
+.jw_slidecontent {
+ background: url("../images/light_slate/content/tcontent_bg.png") repeat-x;
+ color: #666;
+}
+
+/* login form */
+#top-mod a:link,
+#top-mod a:visited {
+ color: #004182;
+}
+
+#top-mod div.moduletable h3 {
+ color: #555;
+
+}
+
+#top-mod form {
+ color: #555;
+}
+
+#top-mod div.loginelement input {
+ background: #fff;
+ border: 1px solid #ccc;
+ color: #333;
+}
+
+span.loginsubmit,
+span.logoutsubmit,
+span.glossbutton {
+ color: #fff;
+ background: url("../images/light_slate/login-button-r.png") 100% 0 no-repeat;
+}
+
+span.loginsubmit span,
+span.logoutsubmit span,
+span.glossbutton span {
+ background: url("../images/light_slate/login-button-l.png") 0 0 no-repeat;
+}
+
+/* slimbox */
+img.album {
+ border: 3px solid
+ #ddd;
+}
+
+#rocket {
+ background: url("../images/light_slate/logo1.gif") 50% 0 no-repeat;
+}
+
+.highlight {
+  background-color: #ffc;
+}
+
+.small,
+.modifydate,
+.createdate {
+	color: #666;
+}
+
+.movie-showcase {
+	color: #eee;
+	background: #426387;
+}
+
+ul.tabbernav li.tabberactive a { font-weight: bold }
+

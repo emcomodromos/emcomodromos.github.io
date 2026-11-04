@@ -11,3 +11,17 @@
 #nav-main ul.ecomo-modern-menu li:hover > ul, #nav-main ul.ecomo-modern-menu li:focus-within > ul, #nav-main ul.ecomo-modern-menu li.ecomo-open > ul { display:block; left:0; }
 #nav-main ul.ecomo-modern-menu li ul li:hover > ul, #nav-main ul.ecomo-modern-menu li ul li:focus-within > ul, #nav-main ul.ecomo-modern-menu li ul li.ecomo-open > ul { left:100%; }
 #nav-main ul.ecomo-modern-menu a:hover, #nav-main ul.ecomo-modern-menu a:focus { background:#4d6d8b; color:white; }
+
+/* v3: restore readable menu text and dropdown surfaces */
+#nav-main ul.ecomo-modern-menu > li > a,
+#nav-main ul.ecomo-modern-menu > li > a:link,
+#nav-main ul.ecomo-modern-menu > li > a:visited { color:#ffffff !important; opacity:1 !important; visibility:visible !important; font-weight:bold; text-shadow:0 1px 1px rgba(0,0,0,.5); }
+#nav-main ul.ecomo-modern-menu > li { visibility:visible !important; opacity:1 !important; }
+#nav-main ul.ecomo-modern-menu > li:hover > a,
+#nav-main ul.ecomo-modern-menu > li:focus-within > a {color:#fff !important;background:#46627e !important;}
+#nav-main ul.ecomo-modern-menu li ul {background:#304b65 !important;}
+#nav-main ul.ecomo-modern-menu li ul a,
+#nav-main ul.ecomo-modern-menu li ul a:link,
+#nav-main ul.ecomo-modern-menu li ul a:visited {color:#fff !important; background:transparent !important;}
+#nav-main ul.ecomo-modern-menu li ul a:hover,
+#nav-main ul.ecomo-modern-menu li ul a:focus {color:#fff !important;background:#46627e !important;}
