@@ -1,0 +1,18 @@
+/** IE7 is a hunk of crap!!! don't ask me why this is needed **/
+
+div.moduletable,
+div.moduletable-hilite1,
+div.moduletable-hilite2,
+div.moduletable-hilite3,
+div.moduletable-hilite4,
+div.bodyhead {
+	height:1%;
+}
+
+#nav-main li:hover  {
+position: relative;
+}
+
+div.moduletable ul{
+	margin-left: 0px;
+}
